@@ -7,8 +7,8 @@ import scala.collection.mutable.ListBuffer
 /*
 table_name--table_name to update.
 batch_number--one batch number update will get fired only once.
-partition_column--partitioned on the basis of which you want to update
-temporary_partition--for error recovery
+partition_column--partitioned on the basis of which you want to update.
+temporary_partition--for error recovery.
 from_clause-- from <tables and conditions>
 case_when--when <conditions> then <statement>
 */
